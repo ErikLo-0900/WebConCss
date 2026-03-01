@@ -1,0 +1,37 @@
+ h1 {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    background-color: #71009e;
+    padding: 20px;
+    list-style: none;
+
+}
+
+.navbar li {
+    margin: 0 20px;
+
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #003ee9;
+}
+
+.navbar li:hover {
+    background-color: #d182ff;
+    padding: 15px;
+}
+
